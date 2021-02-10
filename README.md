@@ -25,6 +25,11 @@ $ cd packer-nginx64
 $ packer build template.json
 ```
 
+- Add the box to Vagrant 
+```shell
+vagrant box add --name nginx64 nginx64-vbox.box
+```
+
 - Initialize Vagrant with the local box created with Packer
 ```shell
 $ vagrant init nginx64-vbox.box
