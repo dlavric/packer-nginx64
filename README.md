@@ -32,7 +32,7 @@ vagrant box add --name nginx64 nginx64-vbox.box
 
 - Initialize Vagrant with the local box created with Packer
 ```shell
-$ vagrant init nginx64-vbox.box
+$ vagrant init -m nginx64
 ```
 
 - Start Vagrant
